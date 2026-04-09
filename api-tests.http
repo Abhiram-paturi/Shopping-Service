@@ -1,0 +1,13 @@
+### Create an order
+POST http://localhost:8081/api/order
+Content-Type:application/json
+
+{
+    "orderLineItemsDto":[
+        {
+            "skuCode":"iphone_13",
+            "price":1200,
+            "quantity":12
+        }
+    ]
+} 
